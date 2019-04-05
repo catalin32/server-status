@@ -4,7 +4,7 @@ if (isset($_GET['new']))
 	Service::add();
 }
 
-if (isset($_GET['delete']))
+if (isset($_GET['delete'])
 {
 	Service::delete();
 }
